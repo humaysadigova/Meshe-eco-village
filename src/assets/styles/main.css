@@ -1,0 +1,9 @@
+/* utilities */
+@import './utilities/reset.css';
+@import './utilities/font.css';
+@import './utilities/roots.css';
+@import './utilities/global.css';
+
+/* component */
+@import './components/header.css';
+@import './components/footer.css';

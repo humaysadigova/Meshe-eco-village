@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Medium.ttf) format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'AmaticSC';
+    src: url(../../fonts/AmaticSC-Bold.ttf) format('truetype');
+    font-weight: bold;
+}

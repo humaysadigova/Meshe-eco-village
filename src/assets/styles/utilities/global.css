@@ -1,0 +1,9 @@
+@import './font.css';
+* { 
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    margin: auto;
+    padding: 70px 100px;
+}
