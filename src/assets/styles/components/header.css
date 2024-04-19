@@ -2,6 +2,7 @@ header {
     width: 100%;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
+    padding-right: 50px;
 }
 .header_navbar {
     display: flex;

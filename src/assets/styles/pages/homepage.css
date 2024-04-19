@@ -1,0 +1,78 @@
+.container {
+    font-family: 'Inter', sans-serif;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    /* text-transform: inherit; */
+}
+.header-buttom {
+    margin: 64px 0 100px 0;
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 35px;
+}
+.section-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .section1-img {
+    width: 573px;
+    height: 443px;
+    border: 4px;
+    border-radius: 24px #d87e00 solid;
+} */
+
+.section1-title {
+    width: 548px;
+    text-align: center;
+    color: #262626;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+.homepage-title {
+    font-family: 'AmaticSC', sans-serif;
+    text-align: center;
+    color: #3A481E;
+    font-size: 64px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 52px;
+    transition: 0.1s;
+}
+.homepage-title:hover, .section1-title:hover {
+    color: #d87e00;
+}
+.sec1-aboutUs {
+    margin-top: 20px;
+}
+.section-2 {
+    align-items: center;
+}
+.hover-container {
+    padding-top: 22px;
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+}
+.section2-title {
+    text-align: center;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 400;
+}
+.hover-community {
+    transition: transform 0.5s ease;
+}
+.hover-community:hover {
+    transform: scale(1.2);
+}
+.section-3 {
+    margin-top: 100px 0 35px 0;
+    padding-top: 100px;
+}

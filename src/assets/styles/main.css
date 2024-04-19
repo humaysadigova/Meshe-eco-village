@@ -7,3 +7,7 @@
 /* component */
 @import './components/header.css';
 @import './components/footer.css';
+@import './components/slider.css';
+
+/* pages */
+@import './pages/homepage.css';
