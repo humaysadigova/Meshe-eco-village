@@ -1,0 +1,27 @@
+.supportUs_container {
+    margin-top: 65px;
+    display: flex;
+}
+.su-desc_container {
+    margin-top: 100px;
+    padding-top: 37px;
+    text-align: center;
+}
+.first-su-description, .second-su-description{
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.first-su-description {
+    color: #d87e00;
+}
+.second-su-description, .last-su-description {
+    color: #262626;
+}
+.last-su-description {
+    font-size: 28px;
+    font-family: 'AmaticSC';
+    font-weight: bold;
+    margin-top: 44px;
+}

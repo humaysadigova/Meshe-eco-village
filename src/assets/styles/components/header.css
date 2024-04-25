@@ -4,7 +4,7 @@ header {
     font-size: 18px;
     padding-right: 50px;
 }
-.header_navbar {
+.header_navbar, .lang_container {
     display: flex;
     justify-content: space-between;
 }
@@ -13,21 +13,23 @@ header {
     list-style-type: none;
     gap: 48px;
 }
+.lang_container {
+    gap: 10px;
+}
 .nav_group {
     display: flex;
     gap: 48px;
     margin-top: 30px;
-
 }
 .header_navbar_logo img {
     width: 128px;
 }
-.header_nav_item a {
+.nav_link {
 text-decoration: none;
 font-weight: 600;
 color:black;
 }
-.header_nav_item.active a {
+.active {
     color: #d87e00;
     text-decoration-line: underline;
 }
@@ -35,6 +37,6 @@ color:black;
 font-weight: bold;
 color:black;
 }
-.lang_item.active {
+.active_lang {
     color: #d87e00;
 }

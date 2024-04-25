@@ -17,29 +17,35 @@
           />
         </div>
         <div class="nav_group">
-          <ul class="header_nav">
-            <li class="header_nav_item active">
-              <a href="./index.html">Homepage</a>
+          <ul id="navBtnContainer" class="header_nav">
+            <li class="header_nav_item">
+              <a class="nav_link active" href="./index.html">Homepage</a>
             </li>
             <li class="header_nav_item">
-              <a href="./src/pages/aboutUs.html">About Us</a>
+              <a class="nav_link" href="./src/pages/aboutUs.html">About Us</a>
             </li>
             <li class="header_nav_item">
-              <a href="./src/pages/community.html">Community</a>
+              <a class="nav_link" href="./src/pages/community.html"
+                >Community</a
+              >
             </li>
             <li class="header_nav_item">
-              <a href="./src/pages/projects.html">Projects</a>
+              <a class="nav_link" href="./src/pages/projects.html">Projects</a>
             </li>
             <li class="header_nav_item">
-              <a href="./src/pages/ongoingPrograms.html">Ongoing Programs</a>
+              <a class="nav_link" href="./src/pages/ongoingPrograms.html"
+                >Ongoing Programs</a
+              >
             </li>
             <li class="header_nav_item">
-              <a href="./src/pages/supportUs.html">Support Us</a>
+              <a class="nav_link" href="./src/pages/supportUs.html"
+                >Support Us</a
+              >
             </li>
           </ul>
-          <ul class="lang">
-            <li class="lang_item active">EN</li>
-            <!-- <li class="lang_item">Aze</li> -->
+          <ul class="lang_container">
+            <li><a href="#" class="lang_item active_lang">EN</a></li>
+            <li><a href="#" class="lang_item">AZ</a></li>
           </ul>
         </div>
       </nav>
@@ -75,14 +81,14 @@
       <div class="section-1">
         <div>
           <div class="section1-img">
-            <a href="#">
+            <a href="./src/pages/aboutUs.html">
               <img
                 src="./src/assets/images/Homepage/bbb.svg"
                 alt="About Us Image"
               />
             </a>
           </div>
-          <a href="#">
+          <a href="./src/pages/aboutUs.html">
             <p class="section1-title">
               We are a small community living in the Talysh mountains in the
               south of Azerbaijan...
@@ -95,10 +101,10 @@
           />
         </div>
         <div>
-          <a href="#">
+          <a href="./src/pages/aboutUs.html">
             <h2 class="homepage-title sec1-aboutUs">ABOUT US</h2>
           </a>
-          <a href="#">
+          <a href="./src/pages/aboutUs.html">
             <img
               class="section1-img"
               src="./src/assets/images/Homepage/section1img.svg"
@@ -108,18 +114,18 @@
         </div>
       </div>
       <div class="section-2">
-        <a href="#">
+        <a href="./src/pages/community.html">
           <h3 class="homepage-title">OUR COMMUNITY</h3>
         </a>
         <div class="hover-container">
-          <a href="#" class="hover-community">
+          <a href="./src/pages/community.html" class="hover-community">
             <img
               src="./src/assets/images/Homepage/sec2Img1.svg"
               alt="Our community"
             />
             <p class="section2-title">*We celebrate Nowruz</p>
           </a>
-          <a href="#" class="hover-community">
+          <a href="./src/pages/community.html" class="hover-community">
             <img
               src="./src/assets/images/Homepage/sec2Img2.svg"
               alt="Our community"
@@ -190,5 +196,6 @@
       </div>
     </footer>
     <script src="./src/assets/js/slider.js"></script>
+    <script src="./src/assets/js/active.js"></script>
   </body>
 </html>

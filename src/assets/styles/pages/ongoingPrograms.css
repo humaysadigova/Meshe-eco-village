@@ -45,6 +45,8 @@
     margin-top: 24px;
 }
 .registration-btn {
+    display: flex;
+    justify-content: center;
     width: 208px;
     height: 48px;
     border: 0;
@@ -53,8 +55,15 @@
     font-weight: bold;
     color: #f1f1f1;
     background-color: #262626;
-    text-align: center;
+    align-items: center;
+    transition-timing-function: ease-out;
+    transition: 600ms; 
+
 }
 .programs-section {
     margin-top: 57px;
+}
+.registration-btn:hover {
+    background-color: #d87e00;
+     
 }

@@ -12,3 +12,5 @@
 /* pages */
 @import './pages/homepage.css';
 @import './pages/ongoingPrograms.css';
+@import './pages/aboutUs.css';
+@import './pages/supportUs.css';
